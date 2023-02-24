@@ -1,0 +1,167 @@
+.header {
+  float: left;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background-color: #eeebeb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+.button {
+  border-radius: 50px;
+  padding: 10px 15px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  color: rgb(255, 255, 255);
+}
+
+.button-nav:hover {
+  background: #ddd;
+  color: black;
+}
+
+.active {
+  background: #bcbc04;
+  color: white;
+}
+
+.active:hover {
+  background: #dfdf04;
+  color: white;
+}
+
+#logo {
+  margin-top: 20px;
+  margin-left: 40px;
+  height: 70px;
+  width: auto;
+}
+
+.header-right {
+  float: right;
+}
+
+/* bg */
+.spacer {
+  aspect-ratio: 740/360;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/css/asset/bg.jpg");
+  overflow: hidden;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.custom-shape-divider-bottom-1677224719 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  margin-bottom: 10px;
+}
+
+.custom-shape-divider-bottom-1677224719 svg {
+  position: relative;
+  display: block;
+  width: calc(136% + 1.3px);
+  height: 160px;
+}
+
+.custom-shape-divider-bottom-1677224719 .shape-fill {
+  fill: #ffffff;
+}
+
+.description {
+  color: white;
+  position: relative;
+  left: 100px;
+  top: 100px;
+}
+
+.greatOutdoor {
+  color: #ffff00;
+}
+
+.about {
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  height: auto;
+}
+
+.experience {
+  height: auto;
+  color: #bcbc04;
+  margin-top: 80px;
+}
+
+.expSections {
+  background-color: white;
+  display: flex;
+  align-self: center;
+  overflow: hidden;
+}
+
+.column {
+  width: 25%;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 20px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, .7);
+}
+
+.column2 {
+    width: 25%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 100px;
+    padding: 20px;
+    height: 500px;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .7);
+  }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
