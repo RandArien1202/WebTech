@@ -65,7 +65,7 @@ html {
 /* bg */
 .spacer {
   aspect-ratio: 740/360;
-  background-image: url("asset/bg.jpg"),
+  background-image: url("https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Zugpsitze_mountain.jpg?crop=0%2C176%2C3008%2C1654&wid=2000&hei=1100&scl=1.504"),
     linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
   overflow: hidden;
   width: 100%;
@@ -106,7 +106,6 @@ html {
 .greatOutdoor {
   color: #ffff00;
 }
-
 .about {
   overflow: hidden;
   background-color: rgb(255, 255, 255);
