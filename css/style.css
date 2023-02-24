@@ -66,7 +66,7 @@ html {
 .spacer {
   aspect-ratio: 740/360;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/css/asset/bg.jpg");
+    url("css/asset/bg.jpg");
   overflow: hidden;
   width: 100%;
   background-repeat: no-repeat;
@@ -137,21 +137,21 @@ html {
   padding: 20px;
   height: 500px;
   border-radius: 10px;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, .7);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
 }
 
 .column2 {
-    width: 25%;
-    margin: 10px;
-    margin-left: auto;
-    margin-right: 30px;
-    margin-top: 100px;
-    padding: 20px;
-    height: 500px;
-    color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, .7);
-  }
+  width: 25%;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: 30px;
+  margin-top: 100px;
+  padding: 20px;
+  height: 500px;
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+}
 
 .row:after {
   content: "";
